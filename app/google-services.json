@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "952002205295",
+    "firebase_url": "https://crud-extra-pokemon-default-rtdb.firebaseio.com/",
+    "project_id": "crud-extra-pokemon",
+    "storage_bucket": "crud-extra-pokemon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952002205295:android:8ef5060d39bd9398405f9a",
+        "android_client_info": {
+          "package_name": "com.tema4.crudextrapokemon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBflzNEe9USp535-8DR88ZAR-uhG3-VgwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

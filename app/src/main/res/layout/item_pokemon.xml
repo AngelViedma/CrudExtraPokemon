@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginVertical="4dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blancoHielo"
+        android:paddingBottom="4dp">
+
+
+        <ImageView
+            android:id="@+id/item_miniatura"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/img_miniatura"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/item_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:text="Nombre:"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/item_miniatura"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/item_nombre_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Nombre"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_nombre"
+            app:layout_constraintStart_toEndOf="@+id/item_nombre"
+            app:layout_constraintTop_toTopOf="@+id/item_nombre" />
+
+        <TextView
+            android:id="@+id/item_tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:text="Tipo:"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/item_miniatura"
+            app:layout_constraintTop_toBottomOf="@id/item_nombre" />
+
+        <TextView
+            android:id="@+id/item_tipo_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Tipo"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_tipo"
+            app:layout_constraintStart_toEndOf="@+id/item_tipo"
+            app:layout_constraintTop_toTopOf="@+id/item_tipo"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/item_poder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:text="Poder:"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            app:layout_constraintStart_toEndOf="@+id/item_miniatura"
+            app:layout_constraintTop_toBottomOf="@+id/item_tipo" />
+
+        <TextView
+            android:id="@+id/item_poder_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Poder"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_poder"
+            app:layout_constraintStart_toEndOf="@+id/item_poder"
+            app:layout_constraintTop_toTopOf="@+id/item_poder"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/item_salud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Salud:"
+            android:textSize="13sp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/item_miniatura"
+            app:layout_constraintTop_toBottomOf="@+id/item_poder" />
+
+        <TextView
+            android:id="@+id/item_salud_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Salud"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_salud"
+            app:layout_constraintStart_toEndOf="@+id/item_salud"
+            app:layout_constraintTop_toTopOf="@+id/item_salud"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/item_editar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="56dp"
+            android:src="@drawable/img_edit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/item_borrar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/img_delete_forever"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
