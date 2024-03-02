@@ -3,4 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blancoHielo">#E4DBDB</color>
+    <color name="dark_primary_color">#212121</color>
+    <color name="dark_primary_dark_color">#000000</color>
+    <color name="dark_accent_color">#FF4081</color>
+    <color name="textColorBlack">#FF000000</color>
 </resources>

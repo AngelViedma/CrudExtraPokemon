@@ -44,6 +44,8 @@ class EditarPokemon : AppCompatActivity(), CoroutineScope {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_editar_pokemon)
 
+        supportActionBar?.title = "Editar Pokemon"
+
 
         val this_activity = this
         job = Job()

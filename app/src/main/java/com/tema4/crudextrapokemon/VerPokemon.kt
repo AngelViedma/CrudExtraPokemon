@@ -28,6 +28,8 @@ class VerPokemon : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ver_pokemon)
 
+        supportActionBar?.title = "Ver Pokemons"
+
 
         volver = findViewById(R.id.volver_inicio)
 

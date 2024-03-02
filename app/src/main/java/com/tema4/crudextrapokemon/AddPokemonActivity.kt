@@ -44,7 +44,7 @@ class AddPokemonActivity : AppCompatActivity(), CoroutineScope {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_pokemon)
-
+        supportActionBar?.title = "Añadir Pokemon"
 
         val this_activity = this
         job = Job()
